@@ -1,0 +1,179 @@
+/*CSS reset*/
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*END OF CSS RESET*/
+
+/*Typography*/
+              
+
+html {font-size: 16px;}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: false;
+  line-height: 1.65;
+}
+
+p, a {
+  font-size: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Dancing Script', serif;
+  font-weight: true;
+  line-height: 1.15;
+}
+
+h1,
+.text-size-h1 {
+  font-family: 'Dancing Script', serif;
+  font-weight: 500;
+  margin-top: 0;
+  font-size: 11.09em;
+}
+
+h2,
+.text-size-h2 { font-size: 6.85em; }
+
+h3,
+.text-size-h3 { font-size: 4.24em; }
+
+h4,
+.text-size-h4 { font-size: 2.62em; }
+
+h5,
+.text-size-h5 { font-size: 1.62em; }
+
+.text-caption { font-size: 0.62em; }
+
+small,
+.text-small {
+  font-size: 0.38em;
+}
+              
+              
+   
+/*END OF TYPO*/
+
+/*Global Styles*/
+body {
+    background-color: #3A1111;
+    color: white;
+    max-width: 700px;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+a {
+    padding: 0 3em;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+a:hover, a:active, a:focus, a:link, a:visited {
+    outline: 0;
+    outline: 0 !important;
+    outline-style:none;
+}
+/*END OF GLOBAL*/
+body {
+    padding-left: 2em;
+}
+
+/*Main Styles*/
+
+header {
+    align-items: center;
+}
+
+.top-nav-logo {
+   
+    padding-right: 3em;
+}
+
+.nav-links {
+    padding-left: 5em;
+}
+
+/*END OF MAIN*/
+
+/*Responsive*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   background: white;}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+ 
+/*END RESPONSIVE*/
