@@ -1,5 +1,5 @@
 # portfolio-page
-Portfolio page for finding internship
+Portfolio page 
 
 
 
